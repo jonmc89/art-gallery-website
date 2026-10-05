@@ -36,19 +36,16 @@ body {
   }
 }
 
+.main-content-logo {
+  width: 21.4375rem;
+  height: 6.75rem;
+}
+
 .gallery-info-container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   padding: 0 1rem;
-
-  h1 {
-    color: var(--grey-900);
-    font-weight: 700;
-    font-size: 62px;
-    line-height: 90%;
-    font-family: 'Big Shoulders', Arial, Helvetica, sans-serif;
-  }
 
   p {
     color: var(--grey-700);
