@@ -21,7 +21,17 @@
   <body>
     <main>
       <section class="main-content">
-        <div class="hero-image-container"></div>
+        <picture class="main-content-hero-image">
+          <source
+            media="(min-width: 90rem)"
+            srcset="./assets/desktop/image-hero@2x.jpg"
+          />
+          <source
+            media="(min-width: 51.25rem)"
+            srcset="./assets/tablet/image-hero@2x.jpg"
+          />
+          <img src="./assets/mobile/image-hero@2x.jpg" alt="" />
+        </picture>
         <div class="gallery-info-container">
           <h1>Modern Art Gallery</h1>
           <p>
@@ -40,6 +50,9 @@
             </div>
           </a>
         </div>
+      </section>
+      <section class="gallery">
+        <div class="gallery-hero-image-container"></div>
       </section>
     </main>
   </body>
