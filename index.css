@@ -174,3 +174,30 @@ body {
     font-family: 'Outfit', Arial, Helvetica, sans-serif;
   }
 }
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  background-color: var(--grey-900);
+  padding: 3rem 2.5rem;
+  color: var(--white);
+
+  p {
+    font-size: 1.125rem;
+    line-height: 140%;
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+  }
+}
+
+.footer-logo-light {
+  width: 9.9731rem;
+  height: 3.625rem;
+}
+
+.socials-container {
+  display: flex;
+  gap: 1.25rem;
+}
