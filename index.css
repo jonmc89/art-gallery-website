@@ -33,12 +33,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
 
   h1 {
     color: var(--grey-900);
     font-weight: 700;
-    font-size: 3.75rem;
+    font-size: 62px;
     font-family: 'Big Shoulders', Arial, Helvetica, sans-serif;
   }
 
