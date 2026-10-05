@@ -13,6 +13,11 @@
   --gold-500: #d5966c;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--white);
 }
@@ -96,6 +101,7 @@ body {
 /* Gallery Section */
 
 .gallery {
+  margin-block-end: 6.25rem;
   padding: 0 1rem;
 }
 
@@ -124,5 +130,47 @@ body {
   img {
     width: 100%;
     height: auto;
+  }
+}
+
+.gallery-grid-container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.gallery-image-one {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.gallery-image-two {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.gallery-inspo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: var(--grey-900);
+  padding: 3rem 1.5rem;
+  color: var(--white);
+
+  h2 {
+    font-size: 3.125rem;
+    line-height: 90%;
+    font-family: 'Big Shoulders', Arial, Helvetica, sans-serif;
+  }
+
+  p {
+    font-size: 1.125rem;
+    line-height: 140%;
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
   }
 }
