@@ -113,3 +113,35 @@ body {
 .paragraph-one {
   margin-block-end: 1.25rem;
 }
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: var(--gold-500);
+  padding: 48px 40px;
+  color: var(--grey-900);
+
+  p {
+    font-size: 18px;
+    line-height: 140%;
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+  }
+}
+
+.footer-logo-light {
+  width: 159.5696px;
+  height: 58px;
+}
+
+.socials-container {
+  display: flex;
+  gap: 20px;
+
+  img {
+    filter: brightness(0) saturate(100%) invert(3%) sepia(2%) saturate(209%)
+      hue-rotate(315deg) brightness(95%) contrast(89%);
+  }
+}
