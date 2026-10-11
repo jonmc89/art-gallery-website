@@ -24,6 +24,8 @@ body {
 
 /* || Main Styles */
 
+/* Map Section */
+
 .map-container {
   position: relative;
 }
@@ -38,18 +40,18 @@ body {
 .back-home-button-wrapper {
   display: flex;
   position: absolute;
-  top: 0.625rem;
-  left: 0.625rem;
+  top: 10px;
+  left: 10px;
   cursor: pointer;
 
   p {
     background-color: var(--grey-900);
-    padding: 24px 32px;
+    padding: 1.5rem 2rem;
     color: var(--white);
     font-weight: 800;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Big Shoulders', Arial, Helvetica, sans-serif;
-    letter-spacing: 3.64px;
+    letter-spacing: 0.2275rem;
 
     a {
       color: var(--white);
@@ -60,7 +62,7 @@ body {
   span {
     display: flex;
     background-color: var(--gold-500);
-    padding: 24px 32px;
+    padding: 1.5rem 2rem;
   }
 
   p,
@@ -77,4 +79,37 @@ body {
       background-color: var(--grey-900);
     }
   }
+}
+
+/* Our Location Section */
+
+.out-location-section {
+  background-color: var(--grey-900);
+  padding: 80px 16px;
+
+  h1 {
+    margin-block-end: 48px;
+    color: var(--white);
+    font-size: 55px;
+    line-height: 90%;
+    font-family: 'Big Shoulders', Arial, Helvetica, sans-serif;
+  }
+
+  h2 {
+    margin-block-end: 1.25rem;
+    color: var(--gold-500);
+    font-size: 36px;
+    font-family: 'Big Shoulders', Arial, Helvetica, sans-serif;
+  }
+
+  p {
+    color: var(--white);
+    font-size: 18px;
+    line-height: 140%;
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+  }
+}
+
+.paragraph-one {
+  margin-block-end: 1.25rem;
 }
