@@ -15,7 +15,37 @@
       href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Outfit:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./location.css" />
     <title>Frontend Mentor | Art gallery website</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section class="map-section">
+        <div class="map-container">
+          <picture class="map-image">
+            <source
+              media="min-width: 90rem"
+              srcset="./assets/desktop/image-map@2x.png"
+            />
+            <source
+              media="min-width: 51.25rem"
+              srcset="./assets/tablet/image-map@2x.png"
+            />
+            <img
+              src="./assets/mobile/image-map@2x.png"
+              alt="Grayscale city map of Newport with labeled streets and landmarks. The central focus is the International Tennis Hall of Fame, with nearby locations including Hotel Viking, Newport Art Museum, St Marys Roman Catholic Church, The Elms, and Newport Mansions Preservation Society. Streets and avenues such as Thames Street, Bellevue Avenue, Perry Street, and Spring Street are visible. The overall tone is calm and informative."
+            />
+          </picture>
+          <div class="back-home-button-wrapper">
+            <span
+              ><img
+                src="./assets/icon-arrow-left.svg"
+                alt="Arrow pointing to the right in a white line, indicating navigation to the location section, inside a small rounded icon with a dark background and minimal modern gallery styling."
+            /></span>
+            <p><a href="index.html">BACK HOME</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
